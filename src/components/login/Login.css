@@ -1,0 +1,24 @@
+/* Define o fundo da tela com a imagem */
+.login.template {
+    /* background-image: url('./assets/casal.jpg'); Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+/* Estilo do container do formulário */
+.form_container {
+    width: 30%;
+}
+
+@media screen and (max-width: 700px){
+    .form_container{
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .form_container{
+        width: 45%;
+    }
+}
